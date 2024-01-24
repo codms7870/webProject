@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wedding invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(window).load(function () {
+    $('body').sakura();
+});
+</script>
+    <div id="main">
+        <ul class="menu">
+            <li class="li"><a href="#main" style="color:purple">메인</a></li>
+            <li class="li"><a href="#intro">인사말</a></li>
+            <li class="li"><a href="#whenWhere">일시/장소</a></li>
+            <li class="li"><a href="#location">오시는길</a></li>
+            <li class="li"><a href="#join">회신</a></li>
+        </ul>
+        <span class="box1">
+            우리 결혼합니다!
+            <h1 style="font-weight: lighter;">김영수 ♡ 이영숙</h1>
+            김영철, 박옥순의 차남<br>
+            이상철, 최순자의 장녀<br><br><br>
+            2024.12.31<br>
+            더컨벤션 잠실<br><br>
+            <input type="button" value="자세히" onclick="location.href='#whenWhere'" style="width:6em; height:2em;">
+        </span>
+        <span class="audio1">
+        <audio src="mp3/효린-널 사랑하겠어.mp3" controls autoplay="autoplay" style="width: 315px;"></audio>
+        </span>
+    </div>
+
+    <div id="intro">
+        <ul class="menu">
+            <li class="li"><a href="#main">메인</a></li>
+            <li class="li"><a href="#intro" style="color:purple">인사말</a></li>
+            <li class="li"><a href="#whenWhere">일시/장소</a></li>
+            <li class="li"><a href="#location">오시는길</a></li>
+            <li class="li"><a href="#join">회신</a></li>
+        </ul>
+            <div id="invitationMent">
+                <h1>초대의 말</h1>
+                하나님의 사랑 안에서 두 사람이 만나 이제 하나의 가정을 이룹니다.<br><br>
+                같은 곳을 바라보며 함께 걸어가는 부부로서의 첫걸음,<br><br>
+                이 기쁜 자리에 부디 함께하셔서 축하해 주시기를 바랍니다.
+            </div>
+            <div class="weddingPic">
+                
+            </div>
+        
+    </div>
+
+    <div id="whenWhere">
+        <ul class="menu">
+            <li class="li"><a href="#main">메인</a></li>
+            <li class="li"><a href="#intro" class="z_index">인사말</a></li>
+            <li class="li"><a href="#whenWhere" style="color:purple" class="z_index">일시/장소</a></li>
+            <li class="li"><a href="#location" class="z_index">오시는길</a></li>
+            <li class="li"><a href="#join">회신</a></li>
+        </ul>
+        <span class="flower">
+            T H E <br>
+            W E D D I N G <br>
+            D A Y
+        </span>
+        <span class="when">
+            When <br>
+        </span>
+        <span class="whenMent">
+            2024년 12월 31일<br><br>
+            토요일 오전 11시
+        </span>
+        <span class="where">
+            Where <br>
+        </span>
+        <span class="whereMent">
+            더컨벤션 잠실<br><br>
+            서울특별시 송파구 올림픽로 319
+        </span>
+    </div>
+
+    <div id="location">
+        <ul class="menu">
+            <li class="li"><a href="#main">메인</a></li>
+            <li class="li"><a href="#intro">인사말</a></li>
+            <li class="li"><a href="#whenWhere">일시/장소</a></li>
+            <li class="li"><a href="#location" style="color:purple">오시는길</a></li>
+            <li class="li"><a href="#join">회신</a></li>
+        </ul>
+        <div id="locationMent">
+        <h1>오시는 길</h1>
+            <!-- * 카카오맵 - 지도퍼가기 -->
+            <!-- 1. 지도 노드 -->
+            <div id="daumRoughmapContainer1706070356693" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+            <!--
+                2. 설치 스크립트
+                * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+            -->
+            <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+            <!-- 3. 실행 스크립트 -->
+            <script charset="UTF-8">
+                new daum.roughmap.Lander({
+                    "timestamp" : "1706070356693",
+                    "key" : "2hswg",
+                    "mapWidth" : "640",
+                    "mapHeight" : "360"
+                }).render();
+            </script>
+            <br>
+        <input type="button" value="카카오 빠른길 찾기" class="bttn"
+        onclick="window.open('https://kko.to/XfUnNf671m')">
+        <input type="button" value="지도 크게 보기" class="bttn" onclick="window.open('https://kko.to/vNpZOtndOT')"> 
+        </div>
+    </div>
+
+    <div id="join">
+        <ul class="menu">
+            <li class="li"><a href="#main">메인</a></li>
+            <li class="li"><a href="#intro">인사말</a></li>
+            <li class="li"><a href="#whenWhere">일시/장소</a></li>
+            <li class="li"><a href="#location">오시는길</a></li>
+            <li class="li"><a href="#join" style="color:purple">회신</a></li>
+        </ul>
+        <div id="joinForm">
+        <h1 style="font-family: serif;">참석합니다!</h1>
+        
+       
+        <form action="login.jsp" method="post" name="join" id="join">
+            <label for="lastName">*성</label>
+            <input type="text" id="lastName" name="lastName"
+            required oninvalid="this.setCustomValidity('성을 입력하세요')"
+            oninput = "this.setCustomValidity('')"
+            style="width:12em; height:1.7em;"> &emsp;&emsp;&emsp;&emsp;
+            
+            <label for="firstName">*이름</label>
+            <input type="text" id="firstName" name="firstName"
+            required oninvalid="this.setCustomValidity('이름을 입력하세요')"
+            oninput = "this.setCustomValidity('')"
+            style="width:20em; height:1.7em;"><br><br><br>
+
+            <label for="tel">*전화번호</label>
+            <input type="text" id="tel" name="tel" 
+            required oninvalid="this.setCustomValidity('전화번호를 입력하세요')"
+            oninput = "this.setCustomValidity('')"
+            style="width:23em; height:1.7em;"><br><br><br>
+
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email"
+            style="width:27em; height:1.7em;"><br><br><br>
+            
+            
+            <label for="memo">메모</label><br>
+            <textarea name="memo" id="memo" cols="40" rows="5" placeholder="내용을 입력해주세요"></textarea>
+            <br><br><br><br><br>
+            <input type="submit" value="회신하기" class="bttn" id="submit">
+        </form>
+        
+        </div>
+    </div>
+<script>
+    (function ($) {
+    // requestAnimationFrame Polyfill
+    (function () {
+        var lastTime = 0;
+        var vendors = ['ms', 'moz', 'webkit', 'o'];
+
+        for (var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+            window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];
+            window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame'] || window[vendors[x] + 'CancelRequestAnimationFrame'];
+        }
+
+        if (!window.requestAnimationFrame)
+            window.requestAnimationFrame = function (callback, element) {
+                var currTime = new Date().getTime();
+                var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+                var id = window.setTimeout(function () {
+                        callback(currTime + timeToCall);
+                    },
+                    timeToCall);
+                lastTime = currTime + timeToCall;
+
+                return id;
+            };
+
+        if (!window.cancelAnimationFrame)
+            window.cancelAnimationFrame = function (id) {
+                clearTimeout(id);
+            };
+    }());
+
+    // Sakura function.
+    $.fn.sakura = function (options) {
+        // We rely on these random values a lot, so define a helper function for it.
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        // Helper function to attach cross-browser events to an element.
+        var prefixes = ['moz', 'ms', 'o', 'webkit', ''];
+        var prefCount = prefixes.length;
+
+        function prefixedEvent(element, type, callback) {
+            for (var i = 0; i < prefCount; i++) {
+                if (!prefixes[i]) {
+                    type = type.toLowerCase();
+                }
+
+                element.get(0).addEventListener(prefixes[i] + type, callback, false);
+            }
+        }
+
+        // Defaults for the option object, which gets extended below.
+        var defaults = {
+            blowAnimations: ['blow-soft-left', 'blow-medium-left', 'blow-hard-left', 'blow-soft-right', 'blow-medium-right', 'blow-hard-right'],
+            className: 'sakura',
+            fallSpeed: 3,
+            maxSize: 14,
+            minSize: 9,
+            newOn: 300,
+            swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sway-6', 'sway-7', 'sway-8']
+        };
+
+        var options = $.extend({}, defaults, options);
+
+        // Declarations.
+        var documentHeight = $(document).height();
+        var documentWidth = $(document).width();
+        var sakura = $('<div class="' + options.className + '" />');
+
+        // Set the overflow-x CSS property on the body to prevent horizontal scrollbars.
+        $('body').css({ 'overflow-x': 'hidden' });
+
+        // Function that inserts new petals into the document.
+        var petalCreator = function () {
+            setTimeout(function () {
+                requestAnimationFrame(petalCreator);
+            }, options.newOn);
+
+            // Get one random animation of each type and randomize fall time of the petals.
+            var blowAnimation = options.blowAnimations[Math.floor(Math.random() * options.blowAnimations.length)];
+            var swayAnimation = options.swayAnimations[Math.floor(Math.random() * options.swayAnimations.length)];
+            var fallTime = (Math.round(documentHeight * 0.007) + Math.random() * 5) * options.fallSpeed;
+
+            var animations = 'fall ' + fallTime + 's linear 0s 1' + ', ' +
+                blowAnimation + ' ' + (((fallTime > 30 ? fallTime : 30) - 20) + getRandomInt(0, 20)) + 's linear 0s infinite' + ', ' +
+                swayAnimation + ' ' + getRandomInt(2, 4) + 's linear 0s infinite';
+            var petal = sakura.clone();
+            var size = getRandomInt(options.minSize, options.maxSize);
+            var startPosLeft = Math.random() * documentWidth - 100;
+            var startPosTop = -((Math.random() * 20) + 15);
+
+            // Apply Event Listener to remove petals that reach the bottom of the page.
+            prefixedEvent(petal, 'AnimationEnd', function () {
+                $(this).remove();
+            });
+
+            // Apply Event Listener to remove petals that finish their horizontal float animation.
+            prefixedEvent(petal, 'AnimationIteration', function (ev) {
+                if ($.inArray(ev.animationName, options.blowAnimations) != -1) {
+                    $(this).remove();
+                }
+            });
+
+            petal
+                .css({
+                    '-webkit-animation': animations,
+                    '-o-animation': animations,
+                    '-ms-animation': animations,
+                    '-moz-animation': animations,
+                    animation: animations,
+                    height: size,
+                    left: startPosLeft,
+                    'margin-top': startPosTop,
+                    width: size
+                })
+                .appendTo('body');
+        };
+
+
+        // Recalculate documentHeight and documentWidth on browser resize.
+        $(window).resize(function () {
+            documentHeight = $(document).height();
+            documentWidth = $(document).width();
+        });
+
+        // Finally: Start adding petals.
+        requestAnimationFrame(petalCreator);
+    };
+}(jQuery));
+</script>
+</body>
+</html>
